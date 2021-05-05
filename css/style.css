@@ -1,0 +1,320 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*---Header section---*/
+
+header{
+	width: 100%;
+	float: left;
+	padding: 26px 0px;
+	background: #f6f9f9;
+}
+
+.logo{
+
+	width: 24%;
+	float: left;
+}
+
+.menu{
+
+	width: 74%;
+	float: left;
+}
+
+nav ul{
+	list-style: none;
+	margin-top: 7px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0px 26px;
+	padding: 5px;
+	background: #15A4FA;
+}
+
+nav ul li a{
+	color: #fff;	
+	font-size: 18px;	
+	font-weight: 600;	
+	text-decoration: none;	
+	text-align: center;
+}
+
+/*----Bannar section----*/
+
+.bannar{
+	width: 100%;
+	float: left;
+	background-image: url(../img/bannar.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 26px;
+}
+
+.bannar-content{
+
+	width: 65%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 140px;
+}
+
+.bannar-content h2{
+
+	color: #fff;
+	font-size: 100px;
+	font-weight: bold;
+}
+.bannar-content span{
+
+	border-bottom: 3px solid #15a4fa;
+	display: block;
+	margin: 9px auto;
+	width: 75%;
+}
+
+.bannar-content p{
+
+	font-size: 16px;
+	color: #fff;
+	margin-top: 30px;
+}
+
+.bannar-button{
+	margin-top: 70px;
+    display: inline-block;
+    margin-bottom: 150px;
+}
+
+.bannar-content a{
+
+	text-decoration: none;
+	border: 2px solid #15a4fa;
+	color: #fff;
+	padding: 7px 37px;
+	font-size: 20px;
+}
+
+.bannar-button:hover{
+	border: 2px solid #15a4fa;
+	background: #15A4FA;
+	transition: 1s;
+}
+
+.bannar-icon{
+
+	color: #fff;
+	font-size: 27px;
+	padding-bottom: 30px;
+}
+
+
+/*----Main Content---*/
+
+.main-content{
+	width: 100%;
+    float: left;
+    text-align: center;
+    background: #f6f9f9;
+}
+
+.content-post{
+	width: 90%;
+    margin: 70px auto 80px;
+
+}
+
+.content-post h3{
+	font-size: 37px;
+    margin-bottom: 20px;
+    color: #2d3950;
+}
+
+.content-post p{
+	font-size: 18px;
+    color: #999999;
+    line-height: 1.5;
+    word-spacing: 3px;
+}
+
+/*-----Main Service----*/
+
+.main-service{
+	width: 100%;
+    float: left;
+}
+
+.service-one{
+    width: 29.33%;
+    float: left;
+    text-align: center;
+    margin: 61px 22px;
+}
+
+.service-icon i{
+	background: #5fc3ff;
+    font-size: 47px;
+    padding: 14px 19px;
+    color: #fff;
+    margin-bottom: 33px;
+}
+
+.service-one h3{
+	font-size: 22px;
+    color: #2d3950;
+    margin-bottom: 18px;
+}
+
+.service-one p{
+	font-size: 16px;
+    color: #999999;
+    line-height: 1.5;
+}
+
+/*-----Portfolio Content----*/
+
+.portfolio-content{
+	width: 100%;
+    float: left;
+    background: #f6f9f9;
+}
+
+.portfolio-text{
+	width: 50%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.portfolio-text h2{
+	color: #2d3950;
+    font-size: 35px;
+    margin-bottom: 14px;
+}
+
+.portfolio-text p{
+	font-size: 15px;
+    color: #909090;
+}
+
+/*-----Porfolio Gallery----*/
+
+.portfolio{
+	width: 100%;
+    float: left;
+    background: #f6f9f9;
+}
+
+.portfolio-gallery{
+	width: 100%;
+    float: left;
+}
+
+.portfolio-one{
+	width: 33.33%;
+    float: left;
+}
+
+.gallery-one{
+    padding: 9px;
+
+}
+
+/*-----Form-----*/
+
+.form{
+	width: 100%;
+    float: left;
+    background: url(../img/form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-content{
+	width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.form-content h3{
+	font-size: 45px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.form-content p{
+	color: #999999;
+    font-size: 16px;
+}
+
+.form-one{
+	width: 100%;
+    float: left;
+    margin-top: 47px;
+ 
+}
+
+.main-form{
+	text-align: center;
+}
+
+.form-controll{
+	width: 47%;
+    height: 39px;
+    background: transparent;
+    margin-bottom: 25px;
+    border: 1px solid #999999;
+    padding: 3px 33px;
+    color: #888a8c;
+    font-size: 19px;
+}
+
+.form-button{
+
+}
+
+.box{
+
+}
+
+.form-button h3{
+
+}
+
+.form-button a{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
